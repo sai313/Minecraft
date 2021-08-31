@@ -97,6 +97,10 @@ function my_keydown(e) {
         new_img("cloud.png");
         console.log("c");
     }
+    if(keyPressed=="115"){
+        new_img("cloud.jpg");
+        console.log("s");
+    }
 }
 function up() {
     if(player_y>=0){
